@@ -2,9 +2,18 @@ import React, { useState } from "react";
 import "./navbar.scss";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
+import { SiYourtraveldottv } from "react-icons/si";
 
 const Navbar = () => {
   const [active, setActive] = useState("navBar");
+  // Function to toggle navbar
+  const showNav = () => {
+    setActive("navBar activeNavbar");
+  };
+  // Function to remove navbar
+  const removeNav = () => {
+    setActive("navBar");
+  };
 
   return (
     <section className="navBarSection">
@@ -13,11 +22,11 @@ const Navbar = () => {
           <a href="#" className="logo">
             <h1>
               {" "}
-              <img src="../../../public/icon.svg" alt="logo" /> Travel.
+              <SiYourtraveldottv /> Travel.
             </h1>
           </a>
         </div>
-        <div className="navBar">
+        <div className={active}>
           <ul className="navLists flex">
             <li className="navItem">
               <a href="#" className="navLink">
@@ -60,12 +69,12 @@ const Navbar = () => {
             </button>
           </ul>
 
-          <div className="closeNavbar">
+          <div onClick={removeNav} className="closeNavbar">
             <AiFillCloseCircle className="icon" />
           </div>
         </div>
 
-        <div className="toggleNavbar">
+        <div onClick={showNav} className="toggleNavbar">
           <TbGridDots className="icon" />
         </div>
       </header>
