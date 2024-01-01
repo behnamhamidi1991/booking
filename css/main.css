@@ -158,7 +158,7 @@
   font-size: 18px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 530px) {
   .title {
     font-size: 1.5rem;
   }
