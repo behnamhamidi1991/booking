@@ -143,4 +143,52 @@
 .home .cardDiv .input .icon {
   font-size: 18px;
   color: var(--PrimaryColor) !important;
+  margin-left: 10px;
+}
+.home .cardDiv .input .input[type=range] {
+  background: rgb(80, 17, 163);
+}
+.home .cardDiv .searchOptions {
+  position: absolute;
+  background: var(--gradientColor);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  bottom: -0.7rem;
+  -webkit-column-gap: 0.8rem;
+     -moz-column-gap: 0.8rem;
+          column-gap: 0.8rem;
+  padding: 5px 1rem;
+  border-radius: 3rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.home .cardDiv .searchOptions:hover {
+  background: var(--PrimaryColor);
+}
+.home .cardDiv .searchOptions .icon {
+  font-size: 18px;
+}
+.home .cardDiv .searchOptions span {
+  font-size: 13px;
+}
+.home .homeFooterIcons {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home .homeFooterIcons .icon {
+  font-size: 20px;
+  margin: 0 5px;
+  color: var(--whiteColor);
+  font-weight: 600;
+}
+.home .homeFooterIcons .icon:hover {
+  color: var(--PrimaryColor);
 }
