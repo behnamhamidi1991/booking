@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    imgSrc: "/public/italy.jpg",
+    imgSrc: "./public/italy.jpg",
     destTitle: "Venice",
     location: "Italy",
     grade: "CULTURAL RELAX",
@@ -12,7 +12,7 @@ export const data = [
 
   {
     id: 2,
-    imgSrc: "/public/germany.jpg",
+    imgSrc: "./public/germany.jpg",
     destTitle: "Brandenburg",
     location: "Germany",
     grade: "ADVENTURE JOURNEY",
