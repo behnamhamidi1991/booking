@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    imgSrc: "public/italy.jpg",
+    imgSrc: "italy.jpg",
     destTitle: "Venice",
     location: "Italy",
     grade: "CULTURAL RELAX",
@@ -23,7 +23,7 @@ export const data = [
 
   {
     id: 3,
-    imgSrc: "/public/paris.jpg",
+    imgSrc: "paris.jpg",
     destTitle: "Tue Vuex",
     location: "France",
     grade: "CITY TOURS",
@@ -34,7 +34,7 @@ export const data = [
 
   {
     id: 4,
-    imgSrc: "/public/thailand.jpg",
+    imgSrc: "thailand.jpg",
     destTitle: "Malaga Island",
     location: "Thailand",
     grade: "BEACH & BOAT",
@@ -45,7 +45,7 @@ export const data = [
 
   {
     id: 5,
-    imgSrc: "/public/india.jpg",
+    imgSrc: "india.jpg",
     destTitle: "Taj Mahal",
     location: "INDIA",
     grade: "CULTURAL RELAX",
@@ -56,7 +56,7 @@ export const data = [
 
   {
     id: 6,
-    imgSrc: "/public/iran.jpg",
+    imgSrc: "iran.jpg",
     destTitle: "Tehran",
     location: "Iran",
     grade: "HISTORY & CULTURE",
@@ -67,7 +67,7 @@ export const data = [
 
   {
     id: 7,
-    imgSrc: "/public/spain.jpg",
+    imgSrc: "spain.jpg",
     destTitle: "Madrid",
     location: "Spain",
     grade: "MUSIC AND FOOD",
@@ -77,7 +77,7 @@ export const data = [
   },
   {
     id: 8,
-    imgSrc: "/public/argentina.jpg",
+    imgSrc: "argentina.jpg",
     destTitle: "Bonuesx Sera",
     location: "Argentina",
     grade: "SPORT TRIP",
