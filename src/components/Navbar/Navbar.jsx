@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.scss";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
 
 const Navbar = () => {
+  const [active, setActive] = useState("navBar");
+
   return (
     <section className="navBarSection">
       <header className="header flex">
