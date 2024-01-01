@@ -86,3 +86,10 @@ input {
 body {
   background-color: var(--bodyColor);
 }
+
+/* MEDIA QUERIES ==================================> */
+@media screen and (min-width: 1240px) {
+  .container {
+    width: 80% !important;
+  }
+}
