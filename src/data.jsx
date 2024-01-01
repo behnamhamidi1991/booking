@@ -12,7 +12,7 @@ export const data = [
 
   {
     id: 2,
-    imgSrc: "./public/germany.jpg",
+    imgSrc: "germany.jpg",
     destTitle: "Brandenburg",
     location: "Germany",
     grade: "ADVENTURE JOURNEY",
