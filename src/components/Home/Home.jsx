@@ -7,6 +7,13 @@ const Home = () => {
     <section className="home">
       <div className="overlay">
         <video src={video} muted loop autoPlay></video>
+
+        <div className="homeContent container">
+          <div className="textDiv">
+            <span className="smallText">Our Packages</span>
+            <h1 className="homeTitle">Search Your Ideal Holiday</h1>
+          </div>
+        </div>
       </div>
     </section>
   );
