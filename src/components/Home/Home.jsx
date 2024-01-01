@@ -6,7 +6,6 @@ import { HiFilter } from "react-icons/hi";
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram, FaTripadvisor, FaListUl } from "react-icons/fa";
 import { TbApps } from "react-icons/tb";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 
